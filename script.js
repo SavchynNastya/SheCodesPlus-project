@@ -1,4 +1,3 @@
-import axios from "axios";
 let date = new Date();
 let daysOfWeek = ["SUN", "MON", "TUE", "WED", "THUR", "FRI", "SAT"];
 let wDay = document.querySelector("#week-Day");
