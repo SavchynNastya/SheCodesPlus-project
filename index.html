@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="src/styles.css" />
+    <script src="https://kit.fontawesome.com/cbe54f3517.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form">
+        <form>
+          <input type="text" placeholder=" choose the sity..." />
+        </form>
+      </div>
+      <button id="current-location">
+          <i class="fa-solid fa-location-dot"></i>
+      </button>
+      <h1>
+        Paris
+      </h1>
+      <h4><span id = "week-Day">WED</span> <span id="time"> 12:50 </span></br>humidity: <span id="humidity">60</span> %</br>wind: <span id="wind-speed">20</span> km/hour</h4>
+      <h2>
+        now
+      </h2>
+      <span class="now_weather">
+        <img src="images/sunny_s_cloudy.png"/>
+      </span>
+      <span class="now_temp"><span id="now-value">20</span><span class="temp_sign"></span> <span class="link_celsius">℃</span> | <span class="link_fahren">℉</span></span>
+      <div class="row">
+        <div class="col">
+        <div class="Mon">
+          <div class="card border-secondary mb-3" style="max-width: 80px;">
+            <div class="card-header">Mon</div>
+            <div class="card-body text-secondary">
+              <h5 class="card-title">
+                <img src="images/thunderstorms.png"/>
+              </br><span class = "temp">18°</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col">
+        <div class="Tues">
+            <div class="card border-secondary mb-3" style="max-width: 80px;">
+              <div class="card-header">Tues</div>
+              <div class="card-body text-secondary">
+                <h5 class="card-title">
+                    <img src="images/rain_s_cloudy.png"/>
+                </br><span class = "temp">15°</span></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="Wed">
+              <div class="card border-secondary mb-3" style="max-width: 80px;">
+                <div class="card-header">Wed</div>
+                <div class="card-body text-secondary">
+                  <h5 class="card-title">
+                      <img src="images/sunny.png"/>
+                  </br><span class = "temp">20°</span></h5>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="Thur">
+                <div class="card border-secondary mb-3" style="max-width: 80px;">
+                  <div class="card-header">Thur</div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title">
+                        <img src="images/rain_s_cloudy.png"/>
+                    </br><span class = "temp">22°</span></h5>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+              <div class="Fri">
+                  <div class="card border-secondary mb-3" style="max-width: 80px;">
+                    <div class="card-header">Fri</div>
+                    <div class="card-body text-secondary">
+                      <h5 class="card-title">
+                          <img src="images/partly_cloudy.png"/>
+                      </br><span class = "temp">20°</span></h5>
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+        <div class="col">
+                <div class="Sat">
+                    <div class="card border-secondary mb-3" style="max-width: 80px;">
+                      <div class="card-header">Sat</div>
+                      <div class="card-body text-secondary">
+                        <h5 class="card-title">
+                            <img src="images/partly_cloudy.png"/>
+                        </br><span class = "temp">28°</span></h5>
+                        <p class="card-text">
+                          
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+
+        <div class="col">
+                  <div class="Sun">
+                      <div class="card border-secondary mb-3" style="max-width: 80px;">
+                        <div class="card-header">Sun</div>
+                        <div class="card-body text-secondary">
+                          <h5 class="card-title">
+                              <img src="images/sunny.png"/>
+                          </br><span class = "temp">30°</span></h5>
+                          <p class="card-text">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+        </div>
+      </div>
+    </div>
+      <script src="src/index.js"></script>
+  </body>
+</html>
