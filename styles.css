@@ -92,6 +92,16 @@ h4 {
   padding: 1px;
 }
 
+#mon-icon,
+#tues-icon,
+#wed-icon,
+#thur-icon,
+#fri-icon,
+#sat-icon,
+#sun-icon {
+  max-width: 50px;
+}
+
 .container {
   max-width: 600px;
   border: 1px solid grey;
@@ -99,6 +109,11 @@ h4 {
   padding-bottom: 0px;
   margin: 10px;
   background: rgba(52, 73, 94, 90%);
+}
+
+.card-body,
+.card-title {
+  background: #abccee;
 }
 
 .card-header {
