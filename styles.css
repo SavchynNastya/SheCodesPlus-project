@@ -39,6 +39,15 @@ h2 {
   padding: 0;
 }
 
+p {
+  position: relative;
+  left: 10px;
+}
+
+#source-code {
+  font-family: monospace;
+}
+
 form input {
   border: 1px solid grey;
   border-radius: 8px;
